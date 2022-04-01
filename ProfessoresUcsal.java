@@ -1,6 +1,6 @@
 package ProfessoresUcsal;
 
-public class ProfessoresUcsal {
+public class ProfessoresUcsal implements  ProfessoresUcsal{
 	private String[] nome;
 	private String email;
 	private String telefone;
