@@ -13,7 +13,8 @@ package ProfessoresUcsal;
 		public void remocao(String[] nome, String email, String telefone);
 		public void retornoQuantidadeProfessores(String telefone);
 		public void limparLista(String telefone);
-		
+                public void consultar(String[] nome, String email, String telefone) {
+
 			
 
 		}
