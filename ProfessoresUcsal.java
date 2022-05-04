@@ -16,7 +16,7 @@ this.telefone = telefone;
 
 }
 
-public boolean add(String nome,String email, String telefone ) {
+public boolean add(String nome,String email, String telefone ) { // MÉTODO ADICIONAR
 	return true;
 	
 }
@@ -33,34 +33,34 @@ public String getEmail() {
 	return email;
 }
 
-public void setEmail(String email) { //Set 
+public void setEmail(String email) { 
 	this.email = email;
 }
 
-public String getTelefone() { //Consulta
+public String getTelefone() { 
 	return telefone;
 }
 
-public void setTelefone(String telefone) { //Alterar
+public void setTelefone(String telefone) {
 	this.telefone = telefone;
 }
 
-public void remocao(String[] nome, String email, String telefone) {
+public void remocao(String[] nome, String email, String telefone) { //MÉTODO REMOVER
 	this.nome = nome;
 	this.email = email;
 	this.telefone = email;
 }
-public void retornoQuantidadeProfessores(String telefone) {
+public void retornoQuantidadeProfessores(String telefone) { //MÉTODO Retorno da quantidade de professores
 	this.nome = nome;
 
 }
-public void limparLista(String telefone) {
+public void limparLista(String telefone) { // MÉTODO REMOVER
 	this.nome = nome;
 	this.email = email;
 	this.telefone = telefone;
 	
 }
-	public void consultar(String[] nome, String email, String telefone) {
+	public void consultar(String[] nome, String email, String telefone) { MÉTODO CONSULTAR
 		//@todo
 }
 
